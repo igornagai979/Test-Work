@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>РемонтПро</title>
+     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body >
+
+    <header>
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" style="font-size: 1.5rem; padding: 1%;">
+                <img src="" width="5%" alt="">РЕМОНТ ПРО 
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="font-size: 15px; ">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ГЛАВНАЯ</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#uslugi">УСЛУГИ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#preimushestvo">ПРЕИМУЩЕСТВА</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">ПОРТФОЛИО</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">КОНТАКТЫ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <style>
+          .navbar-nav .nav-item .nav-link:hover {
+            color: red ;
+          }
+          </style>
+    </header>
+
+
+
+
+    <div class="hero-section"  style="background-image: url(./img/fone2.png);">
+      <div class="hero-content">
+        <h1>Добро пожаловать в РемонтПро</h1>
+        <button class="hero-button">Узнать больше</button>
+      </div>
+    </div>
+
+
+
+
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around; 
+            padding: 20px;
+            flex-wrap: wrap; 
+        }
+
+        .card {
+            width: 450px;
+            text-align: center;
+            margin-bottom: 20px;
+            border: 1px solid #ddd; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+              transition: transform 0.5s;
+        }
+
+        .card:hover{
+            transform: translateY(-10px) scale(1.05); 
+            box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2); 
+            background-color: #f8f8f8; 
+            transition: transform 0.5s;
+        }
+          .card:hover img {
+            transform: scale(0.9);
+             transition: transform 0.5s;
+        }
+
+        .card img {
+            width: 100%;
+            height: 450px; 
+            object-fit: cover; 
+            display: block;
+            margin-bottom: 10px;
+            transition: transform 0.5s;
+        }
+
+        .card h3 {
+            margin: 20px 0; 
+            font-size: 1.5em; 
+        }
+
+        .card p {
+            margin: 0 10px 10px; 
+            font-size: 1em;
+            color: #747474; 
+        }
+
+  
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; 
+        }
+
+        h3 {
+            color: #2c2c2c; 
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; 
+                align-items: center; 
+            }
+
+            .card {
+                width: 80%; 
+            }
+        }
+    </style>
+
+    <div class="container" id="uslugi">
+        <div class="card">
+            <img src="./img/studia.jpg" alt="Современные Студии">
+            <h3>СОВРЕМЕННЫЕ СТУДИИ</h3>
+        </div>
+
+        <div class="card">
+            <img src="./img/kichen2.jpg" alt="Ремонт Кухни">
+            <h3>РЕМОНТ КУХНИ</h3>
+        </div>
+
+        <div class="card">
+            <img src="./img/bachroom.jpg" alt="Ванные Комнаты">
+            <h3>ВАННЫЕ КОМНАТЫ</h3>
+        </div>
+
+        <div class="card">
+            <img src="./img/loft.jpg" alt="Лофт и Индастриал">
+            <h3>ЛОФТ И ИНДАСТРИАЛ</h3>
+        </div>
+    </div>
+
+
+
+
+
+
+
+<style>
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 5%;
+}
+
+.feature {
+  width: 200px;
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.feature p {
+  font-size: 17px;
+  line-height: 1.5;
+  color: #333;
+}
+</style>
+
+
+<div class="container" id="preimushestvo">
+
+  <div class="feature">
+    <img src="./img/Опыт.png" alt="Image 1">
+    <p>Опытные специалисты с большим опытом работы.</p>
+  </div>
+
+  <div class="feature">
+    <img src="./img/Разнообразие.png" alt="Image 2">
+    <p>Широкий выбор дизайнерских решений и материалов.</p>
+  </div>
+
+  <div class="feature">
+    <img src="./img/Пунктуальность.png" alt="Image 3">
+    <p>Соблюдение сроков и четкость в выполнении работ.</p>
+  </div>
+</div>
+
+        
+      <h1 style="display: flex; justify-content: center; padding-top: 5%;">НАШИ РАБОТЫ</h1>
+     <div id="portfolio" style="padding-top: 5%;">
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" style="width: 100%; height: 70vh;">
+    <div class="carousel-inner" style="height: 100%;">
+      <div class="carousel-item active" style="height: 100%;">
+        <img src="./img/bathroom.jpg" class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+      </div>
+      <div class="carousel-item" style="height: 100%;">
+        <img src="./img/kichen.jpg" class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+      </div>
+      <div class="carousel-item" style="height: 100%;">
+        <img src="./img/livingroom.jpg" class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+      </div>
+      <div class="carousel-item" style="height: 100%;">
+        <img src="./img/badroom.jpg" class="d-block w-100 h-100" alt="..." style="object-fit: cover;">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+
+
+  <style>
+  
+    .reviews-section {
+      max-width: 1000px; 
+      margin: 40px auto;
+      padding: 20px;
+      text-align: center; /
+    }
+
+    .reviews-section h2 {
+      margin-bottom: 30px;
+      color: #333;
+      font-size: 2.2em;
+      font-weight: 600;
+    }
+
+   
+    .reviews-wrapper {
+      display: flex; 
+      justify-content: space-around; 
+      flex-wrap: wrap; 
+      gap: 20px; 
+      padding: 0 10px; 
+    }
+
+
+    .review-item {
+      flex: 1; 
+      min-width: 280px; 
+      max-width: 320px; 
+      background-color: #ffffff; 
+      border: 1px solid #e0e0e0; 
+      border-radius: 8px; 
+      padding: 25px; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+      text-align: left; 
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+      display: flex;
+      flex-direction: column; 
+      justify-content: space-between; 
+    }
+
+    .review-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .review-content {
+      flex-grow: 1;
+      margin-bottom: 15px; 
+    }
+
+    .review-author-block {
+      margin-top: auto; 
+      padding-top: 15px;
+      border-top: 1px solid #eee; 
+      font-weight: bold;
+      color: #333;
+      font-size: 1.1em;
+    }
+
+    .review-author-name {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .review-author-title {
+      font-size: 0.9em;
+      color: #777;
+      font-weight: normal;
+    }
+
+    .review-text {
+      line-height: 1.7; 
+      color: #555;
+      font-size: 1.05em;
+    }
+
+
+    @media (max-width: 768px) {
+      .reviews-wrapper {
+        flex-direction: column;
+        align-items: center; 
+      }
+      .review-item {
+        max-width: 90%; 
+      }
+      .reviews-section h2 {
+        font-size: 1.8em; 
+      }
+    }
+  </style>
+
+
+<div class="reviews-section">
+
+  <h2>Что говорят наши клиенты о своих новых квартирах:</h2>
+
+  <div class="reviews-wrapper">
+
+    <div class="review-item">
+      <div class="review-content">
+        <p class="review-text">
+          "Я просто в восторге от своей новой квартиры! Спасибо вашей команде за помощь в выборе идеального варианта. Качество строительства на высоте, а расположение просто отличное!"
+        </p>
+      </div>
+      <div class="review-author-block">
+        <span class="review-author-name">Елена Смирнова</span>
+        <span class="review-author-title">Владелец квартиры</span>
+      </div>
+    </div>
+
+    <div class="review-item">
+      <div class="review-content">
+        <p class="review-text">
+          "Приобрел квартиру в вашем комплексе и не пожалел! Все сделано качественно и со вкусом. Особенно радует просторная планировка и вид из окна. Рекомендую!"
+        </p>
+      </div>
+      <div class="review-author-block">
+        <span class="review-author-name">Иван Петров</span>
+        <span class="review-author-title">Покупатель</span>
+      </div>
+    </div>
+
+    <div class="review-item">
+      <div class="review-content">
+        <p class="review-text">
+          "Спасибо за профессиональную консультацию и помощь в оформлении документов. Квартира полностью соответствует моим ожиданиям. Теперь у меня есть свой уютный уголок!"
+        </p>
+      </div>
+      <div class="review-author-block">
+        <span class="review-author-name">Ольга Кузнецова</span>
+        <span class="review-author-title">Новый жилец</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <style>
+       .hero-section {
+           background-image: url('./img/your-background-image.jpg'); 
+           background-size: cover; 
+           background-position: center; 
+           height: 60vh; 
+           display: flex;
+           justify-content: center; 
+           align-items: center;
+           color: white; 
+           text-align: center; 
+           position: relative; 
+           margin-bottom: 50px; 
+       }
+
+       .hero-content {
+           position: relative; 
+           z-index: 2;
+           max-width: 800px; 
+           padding: 20px;
+       }
+
+       .hero-content h1 {
+           font-size: 3rem; 
+           margin-bottom: 20px;
+           text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+       }
+
+       .hero-content h3 {
+           font-size: 1.5rem; 
+           margin-bottom: 30px;
+           text-shadow: 1px 1px 3px rgba(0,0,0,0.5); 
+       }
+
+       .hero-button {
+           padding: 12px 25px;
+           font-size: 1.1rem;
+           color: white;
+           background-color: #e74c3c; 
+           border: none;
+           border-radius: 5px;
+           cursor: pointer;
+           transition: background-color 0.3s ease;
+           box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+       }
+
+       .hero-button:hover {
+           background-color: #c0392b; 
+       }
+    </style>
+  <style>
+
+    .subscribe-block {
+      max-width: 1000px; 
+      margin: 40px auto; 
+      padding: 35px 30px; 
+      border-radius: 10px; 
+      text-align: center; 
+    }
+
+
+    .subscribe-block h2 {
+      font-size: 2.2em; 
+      color: #dc3545; 
+      margin-bottom: 15px; 
+      font-weight: 700; 
+      letter-spacing: 0.5px; 
+    }
+
+ 
+    .subscribe-block p {
+      font-size: 1.1em; 
+      color: #555; 
+      line-height: 1.6; 
+      margin-bottom: 30px; 
+    }
+
+
+    .subscribe-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+
+    .subscribe-form input[type="email"] {
+      width: 100%; 
+      max-width: 400px;
+      padding: 14px 20px; 
+      border: 2px solid #dc3545; 
+      border-radius: 8px; 
+      margin-bottom: 20px; 
+      font-size: 1.1em; 
+      color: #333; 
+      box-sizing: border-box; 
+    }
+
+    .subscribe-form input[type="email"]:focus {
+      outline: none; 
+      border-color: #c82333; 
+      box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.3); 
+    }
+
+
+
+    .subscribe-form button {
+      padding: 14px 30px;
+      background-color: #dc3545; 
+      color: white; 
+      border: none;
+      border-radius: 8px; 
+      cursor: pointer; 
+      font-size: 1.2em; 
+      font-weight: bold; 
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+      transition: background-color 0.3s ease, transform 0.2s ease; 
+      box-shadow: 0 4px 10px rgba(220, 53, 69, 0.4); 
+    }
+
+
+    .subscribe-form button:hover {
+      background-color: #c82333; 
+      transform: translateY(-2px); 
+      box-shadow: 0 6px 15px rgba(220, 53, 69, 0.5); 
+    }
+
+ 
+    @media (max-width: 600px) {
+      .subscribe-block {
+        padding: 25px 20px; 
+      }
+
+      .subscribe-block h2 {
+        font-size: 1.8em;
+      }
+
+      .subscribe-block p {
+        font-size: 1em; 
+      }
+
+      .subscribe-form input[type="email"] {
+        padding: 12px 15px;
+        font-size: 1em;
+      }
+
+      .subscribe-form button {
+        padding: 12px 25px; 
+        font-size: 1.1em;
+      }
+    }
+  </style>
+
+
+<div class="subscribe-block" id="contact">
+  <h2>Подпишитесь на нашу рассылку</h2>
+  <p>Получайте актуальные новости о ремонте и скидках!</p>
+  <form class="subscribe-form">
+    <input type="email" placeholder="Ваш email" required>
+    <button type="submit">Подписаться</button>
+  </form>
+</div>
+  <footer>
+    <style>
+
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+
+        .content-section {
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2em;
+            color: #666;
+            text-align: center;
+        }
+
+    
+        .site-footer {
+            background-color: #f5f5f5; 
+            color: #333; 
+            padding: 40px 20px;
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .footer-column {
+            flex: 1;
+            min-width: 200px;
+            padding: 0 10px;
+        }
+
+        .footer-column h3 {
+            color: #000;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: 600;
+            text-transform: uppercase;
+
+            border-bottom: 2px solid #dc3545; 
+            padding-bottom: 5px; 
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+
+        .footer-column ul li a {
+            color: #555;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-column ul li a:hover {
+            color: #dc3545;
+        }
+
+
+        .footer-column.contact-form-col {
+            flex: 2;
+            min-width: 300px;
+        }
+
+        .footer-column.contact-form-col h3 {
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #444;
+            font-weight: 500;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff; 
+            color: #333;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        .form-group textarea {
+            min-height: 100px;
+        }
+
+        .submit-button {
+            background-color: #dc3545;
+            color: #fff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background-color: #c82333; 
+        }
+
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            margin-top: 30px;
+            border-top: 1px solid #ddd;
+            color: #777;
+        }
+
+        @media (max-width: 768px) {
+            .footer-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .footer-column {
+                width: 100%;
+                max-width: 400px;
+                text-align: center;
+                padding: 0 15px;
+            }
+
+            .footer-column h3 {
+                font-size: 1.1em;
+
+                display: inline-block;
+                text-align: left;
+            }
+
+            .footer-column ul li {
+                margin-bottom: 8px;
+            }
+
+            .footer-column.contact-form-col {
+                max-width: 400px;
+            }
+        }
+    </style>
+
+<footer class="site-footer">
+    <div class="footer-container">
+
+
+        <div class="footer-column">
+            <h3>Компания</h3>
+            <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Карьера</a></li>
+                <li><a href="#">Пресс-центр</a></li>
+                <li><a href="#">Гарантии</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Помощь</h3>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Возврат товара</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer-column contact-form-col">
+            <h3>Свяжитесь с нами</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ваш@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Отправить</button>
+            </form>
+        </div>
+
+        <div class="footer-column">
+            <h3>Наши контакты</h3>
+            <p>
+                <i class="fas fa-map-marker-alt"></i> ул. Примерная, д. 1, г. Город Ульяновск<br>
+                <i class="fas fa-phone"></i> +7 (917) 612-37-66<br>
+                <i class="fas fa-envelope"></i> nivwish979@mail.ru
+            </p>
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        &copy; 2025. РемонтПро Все права защищены. | <a href="#">Политика конфиденциальности</a>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
